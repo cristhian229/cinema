@@ -37,7 +37,7 @@ a{
     color: var(--blanco);
 }
 .estrenos{
-    height: 70vh;
+    height: 75vh;
     background-image: url(https://png.pngtree.com/thumb_back/fw800/background/20231016/pngtree-enchanting-texture-background-dimly-lit-brick-wall-on-a-dark-night-image_13666396.png
     );
     background-size: cover;
@@ -51,7 +51,7 @@ a{
 .scroller {
     display: flex;
     background-color: var(--negro);
-    width: 750px;
+    width: 780px;
     height: 300px;
     animation: pulsate 1.5s infinite alternate;
     border: 0.2rem solid #fff;
@@ -63,6 +63,9 @@ a{
         0 0 0.8rem #bc13fe,
         0 0 2.8rem #bc13fe,
         inset 0 0 1.3rem #bc13fe;
+}
+.fotos-cartelera{
+    border-radius: 15px;
 }
 
 .cartelera{
@@ -91,13 +94,32 @@ a{
 .pelicula {
 
     width: 20%;
-    height: auto;
+    height: 500px;
 }
 
 .pelicula img{
     width: 100%;
-    height: auto;
+    height: 300px;
     border-radius: 15px;
+}
+.boton-reservar{
+    
+    cursor: pointer;
+    color: #fff;
+    background-color: #0d6efd;
+    font-weight: 400;
+    text-align: center;
+    border: 1px solid transparent;
+    padding: 5px 10px;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    
+
+}
+.boton-reservar:hover {
+    color: #fff;
+    background-color: #0b5ed7;
+    border-color: #0a58ca;
 }
 
 #anime{
