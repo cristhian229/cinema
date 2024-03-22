@@ -66,7 +66,7 @@ a{
 }
 
 .cartelera{
-    padding: 5rem 12rem ;
+    padding: 3rem 12rem ;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -79,10 +79,12 @@ a{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    background-color: rgb(240, 240, 240)
     
 }
 .s-cartelera h1{
-    font-size: 42px;
+    font-size: 38px;
+    padding-top: 30px;
 
 }
 
@@ -99,12 +101,16 @@ a{
 }
 
 #anime{
-    padding: 5rem 12rem ;
+    padding: 3rem 12rem ;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     gap: 15px;
+}
+#anime h1{
+    font-size: 38px;
+    padding-bottom: 20px;
 }
 
 .animes {
@@ -124,6 +130,41 @@ a{
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    background-color: rgb(240, 240, 240)
+}
+#reservas h1 {
+    font-size: 38px;
+    padding-bottom: 10px;
+}
+form input, form textarea{
+    width: 100%;
+    border: solid 2px black;
+    outline: none;
+    background: #110303ce;
+    padding: 15px;
+    margin: 15px 0;
+    color: #ffffff;
+    font-size: 18px;
+    border-radius: 15px;
+   
+}
+form button{
+    
+        color: white;
+        border: none;
+        width: 100%;
+        padding: 10px;
+        font-weight: 600;
+        text-transform: uppercase;
+        letter-spacing: 0.08em;
+        background: #070202f5;
+        cursor: pointer;
+        box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.3);
+        transition: 0.25s all ease;
+        &:hover {
+          transform: translateY(2px);
+        }
+
 }
 footer{
     display: flex;
