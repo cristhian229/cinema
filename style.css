@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap')
+;
 *{
     margin: 0;
     padding: 0;
@@ -18,7 +20,7 @@
     justify-content: space-around;
     color: var(--blanco);
     background-color: var(--negro);
-    border-radius: 15px;
+    padding: 8px;
 }
 ul {
     display: flex;
@@ -35,14 +37,19 @@ a{
     color: var(--blanco);
 }
 .estrenos{
-    height: 65vh;
+    height: 70vh;
     background-image: url(https://png.pngtree.com/thumb_back/fw800/background/20231016/pngtree-enchanting-texture-background-dimly-lit-brick-wall-on-a-dark-night-image_13666396.png
     );
+    background-size: cover;
+    background-attachment: fixed;
     display: flex;
     align-items: center;
     justify-content: center;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 .scroller {
+    display: flex;
     background-color: var(--negro);
     width: 750px;
     height: 300px;
@@ -56,4 +63,72 @@ a{
         0 0 0.8rem #bc13fe,
         0 0 2.8rem #bc13fe,
         inset 0 0 1.3rem #bc13fe;
+}
+
+.cartelera{
+    padding: 5rem 12rem ;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 25px !important;
+    justify-content: center;
+    align-items: center;
+}
+.s-cartelera{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+.s-cartelera h1{
+
+}
+
+.pelicula {
+
+    width: 20%;
+    height: auto;
+}
+
+.pelicula img{
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+}
+
+#anime{
+    padding: 5rem 12rem ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.animes {
+
+    width: 20%;
+    height: auto;
+}
+
+.animes img{
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+}
+#reservas {
+    padding: 5rem 12rem ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: pink;
+    font-size: larger;
+    height: 8vh;
 }
